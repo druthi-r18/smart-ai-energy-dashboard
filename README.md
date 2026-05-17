@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# smart-ai-energy-dashboard
+Eco Innovators is a Smart AI-Based Energy Optimization Dashboard for college campuses that monitors real-time power usage, provides AI-driven analytics, smart alerts, weather-based predictions, IoT light control simulation, and an interactive app-like interface to promote sustainable and efficient energy management.
+>>>>>>> cb688a1ccbd2650e9c7217b955eeffee541461e2
