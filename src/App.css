@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dark {
+  background: #020617;
+  color: white;
+}
+
+.light {
+  background: #f1f5f9;
+  color: black;
+}
+
+.sidebar {
+  width: 250px;
+  background: #08111f;
+  padding: 20px;
+  border-right: 1px solid #1e293b;
+}
+
+.logo {
+  color: #22c55e;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.menu p {
+  cursor: pointer;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.menu p:hover {
+  color: #38bdf8;
+  transform: translateX(5px);
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  flex: 1;
+  min-width: 240px;
+  padding: 30px;
+  border-radius: 20px;
+  animation: pulse 2s infinite;
+}
+
+.blue {
+  border: 1px solid #38bdf8;
+  box-shadow: 0 0 20px #38bdf8;
+}
+
+.green {
+  border: 1px solid #22c55e;
+  box-shadow: 0 0 20px #22c55e;
+}
+
+.orange {
+  border: 1px solid #f59e0b;
+  box-shadow: 0 0 20px #f59e0b;
+}
+
+.bigBox {
+  width: 85%;
+  max-width: 900px;
+  padding: 35px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #0f172a;
+  box-shadow: 0 0 20px #38bdf8;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.alertBox {
+  box-shadow: 0 0 20px #ef4444;
+}
+
+.notification {
+  background: #ef4444;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  width: fit-content;
+  margin-top: 20px;
+  animation: blink 1s infinite;
+}
+
+.onBtn,
+.offBtn,
+.voiceBtn,
+.themeBtn,
+.loginBtn {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.onBtn {
+  background: #22c55e;
+}
+
+.offBtn {
+  background: #ef4444;
+}
+
+.voiceBtn {
+  background: #8b5cf6;
+}
+
+.themeBtn {
+  background: #38bdf8;
+}
+
+.loginBtn {
+  background: #22c55e;
+  margin-top: 20px;
+}
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loginBox {
+  background: #0f172a;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 25px #22c55e;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
